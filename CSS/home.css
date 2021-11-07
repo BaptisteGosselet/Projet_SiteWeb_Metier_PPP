@@ -1,0 +1,94 @@
+/*HEADER*/
+#header{
+    background-color: #1C1C1C; 
+    font-family: 'Open sans', sans-serif; 
+    display: flex;
+    margin: -10px -10px 0 -10px;
+
+    position:fixed;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+    }
+
+#logo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo:hover{
+    transition: all 1s;
+    opacity: 70%;
+}
+
+#header a{
+    text-decoration: none;
+    display: block; 
+    color: #4F4F4F;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 15px;
+
+}
+
+#header a:visited{
+    text-decoration: none;
+    display: block;
+    color: #4F4F4F;
+    padding: 20px;
+    font-size: 35px;
+}
+
+#header li:hover a{
+    transition: all 0.5s;
+    color: #C1B0E9; 
+}
+
+#header li{
+    display: inline-block;
+}
+
+#header ul {
+    margin-top: 25px;
+    margin-left: auto;
+    
+}
+
+/*CORPS*/
+body {
+    background-image: url(../img/fondEcran.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+#introduction h1{
+    margin-left: 0px;
+    margin-top: 150px;
+    color:white;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 50px 20px;
+}
+
+#textIntro{
+    opacity: 0.7;
+    box-shadow: 0px 5px 10px black; 
+    display: block; 
+    background-color: #0F0F0F;
+    padding: 150px;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+}
+
+#textIntro p {
+    font-family: 'Georgie', 'Helvetica';
+    line-height: 30px;
+    text-align: center;
+    color:gainsboro;
+}
